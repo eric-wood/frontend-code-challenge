@@ -17,4 +17,4 @@ $ npm install
 $ npm start
 ```
 
-and visit [localhost:8080](localhost:8080).
+and visit [localhost:8080](http://localhost:8080).
