@@ -1,8 +1,7 @@
 {
-  "name": "frontend-code-challenge",
+  "name": "brandfolder-frontend-code-challenge",
   "version": "1.0.0",
   "description": "What's the weather like today?",
-  "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development"
   },
@@ -14,6 +13,7 @@
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
     "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
     "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",

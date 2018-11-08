@@ -1,5 +1,5 @@
 module.exports = {
-  entry: './src/index.jsx',
+  entry: './src/app.jsx',
   module: {
     rules: [
       {
@@ -11,6 +11,11 @@ module.exports = {
         test: /\.(css|scss)$/,
         exclude: /node_modules/,
         use: ['style-loader', 'css-loader', 'sass-loader']
+      },
+      {
+        test: /\.(png|jpg|jpeg|svg)$/,
+        exclude: /node_modules/,
+        use: ['file-loader']
       }
     ]
   },
